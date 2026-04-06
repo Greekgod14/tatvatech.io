@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tatva Tech – We build websites that bring you customers. Digital agency offering web development, social media, marketing, and lead generation." />
+    <meta name="keywords" content="web development, digital marketing, social media management, lead generation, Tatva Tech" />
+    <meta name="author" content="Tatva Tech" />
+    <meta property="og:title" content="Tatva Tech – Built on Core Principles" />
+    <meta property="og:description" content="Helping businesses grow with design, technology, and marketing." />
+    <meta property="og:type" content="website" />
+    <title>Tatva Tech – Built on Core Principles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- PAGE LOADER -->
+    <div class="loader" id="loader">
+      <div class="loader-inner">
+        <img src="TATVATECH.png" alt="Tatva Tech" />
+        <div class="loader-bar"><span></span></div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo"><img src="TATVATECH.png" alt="Tatva Tech" class="logo-img" /></a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" data-section="about">About</a></li>
+          <li><a href="#services" data-section="services">Services</a></li>
+          <li><a href="#work" data-section="work">Our Work</a></li>
+          <li><a href="#why-us" data-section="why-us">Why Us</a></li>
+          <li><a href="#faq" data-section="faq">FAQ</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <canvas id="heroCanvas"></canvas>
+      </div>
+      <div class="hero-content">
+        <p class="hero-tag">Digital Agency</p>
+        <h1>We Build Websites That<br /><span class="gold">Bring You Customers</span></h1>
+        <p class="hero-sub">Helping businesses grow with design, technology, and marketing.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+          <a href="#services" class="btn btn-outline">Our Services</a>
+        </div>
+      </div>
+      <div class="hero-scroll"><span></span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="section-tag">About Us</p>
+            <h2>We Turn Ideas Into <span class="gold">Digital Growth</span></h2>
+            <p>Tatva Tech is a results-driven digital agency built on core principles — clarity, performance, and growth. We partner with businesses to craft powerful online presences that don't just look great, but actually convert visitors into customers.</p>
+            <p>From startups to established brands, we bring strategy, design, and technology together to help you win online.</p>
+            <a href="#contact" class="btn btn-primary">Work With Us</a>
+          </div>
+          <div class="about-values reveal">
+            <div class="value-item">
+              <div class="value-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <h4>Honest Work</h4>
+                <p>We don't overpromise. We deliver what we commit to, every time.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <div>
+                <h4>Fast Turnaround</h4>
+                <p>Your time matters. We move quickly without cutting corners.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <h4>Client-First</h4>
+                <p>Your growth is our goal. We treat your business like our own.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">What We Do</p>
+          <h2>Services Built for <span class="gold">Business Growth</span></h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3>Website Development</h3>
+            <p>Custom, fast, and fully responsive websites designed to convert visitors into paying customers.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <h3>Social Media Management</h3>
+            <p>Strategic content creation and community management that builds your brand and drives engagement.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3>Digital Marketing</h3>
+            <p>Data-driven campaigns across SEO, paid ads, and email that put your business in front of the right audience.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Lead Generation</h3>
+            <p>Targeted funnels and strategies that attract qualified leads and fill your pipeline consistently.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Maintenance Services</h3>
+            <p>Ongoing support, updates, and performance monitoring so your website stays fast, secure, and up-to-date.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR WORK -->
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Our Work</p>
+          <h2>Case Studies <span class="gold">Coming Soon</span></h2>
+        </div>
+        <div class="work-coming reveal">
+          <div class="work-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>We're just getting started.</h3>
+          <p>Our work will speak for itself — real projects, real results, real clients.<br />Check back soon as we build our portfolio with honesty and transparency.</p>
+          <a href="#contact" class="btn btn-primary">Be Our First Case Study</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="why-us section" id="why-us">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Why Tatva Tech</p>
+          <h2>The Difference That <span class="gold">Drives Results</span></h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card reveal">
+            <div class="benefit-num">01</div>
+            <h3>Fast Delivery</h3>
+            <p>We respect your time. Projects are delivered on schedule without compromising quality.</p>
+          </div>
+          <div class="benefit-card reveal">
+            <div class="benefit-num">02</div>
+            <h3>Business-Focused</h3>
+            <p>Every decision we make is tied to your business goals — not just aesthetics.</p>
+          </div>
+          <div class="benefit-card reveal">
+            <div class="benefit-num">03</div>
+            <h3>Modern Design</h3>
+            <p>Clean, contemporary designs that position your brand as a market leader.</p>
+          </div>
+          <div class="benefit-card reveal">
+            <div class="benefit-num">04</div>
+            <h3>Affordable Pricing</h3>
+            <p>Premium quality at transparent, competitive pricing. No hidden fees, ever.</p>
+          </div>
+          <div class="benefit-card reveal">
+            <div class="benefit-num">05</div>
+            <h3>Reliable Support</h3>
+            <p>We're with you after launch — ongoing support whenever you need it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">FAQ</p>
+          <h2>Questions We Get <span class="gold">All the Time</span></h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              How long does it take to build a website?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Most websites are delivered within 7–14 days depending on complexity. We'll give you a clear timeline before we start — no surprises.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              How much does it cost?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Pricing depends on what you need. We keep it affordable and transparent — no hidden charges. Reach out and we'll give you an honest quote based on your requirements.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Do you offer revisions?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We include revision rounds in every project. We work with you until you're genuinely happy with the result.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Will my website work on mobile?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. Every website we build is fully responsive — it looks and works great on mobile, tablet, and desktop.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Do you provide ongoing support after launch?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We offer maintenance packages so your site stays updated, secure, and running smoothly. We don't disappear after delivery.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              I'm not tech-savvy. Can I still work with you?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>100%. We handle everything technical. You just tell us your goals and we take care of the rest — in plain language, no jargon.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Get In Touch</p>
+          <h2>Let's Grow Your <span class="gold">Business Together</span></h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Ready to get started?</h3>
+            <p>Tell us about your project and we'll get back to you within 24 hours.</p>
+            <div class="contact-details">
+              <a href="mailto:tatvatechofficial@gmail.com" class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                tatvatechofficial@gmail.com
+              </a>
+              <a href="https://wa.me/919019554570?text=Hi%20Tatva%20Tech%2C%20I%27m%20interested%20in%20your%20services!" target="_blank" rel="noopener" class="contact-item whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Chat on WhatsApp
+              </a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-success" id="formSuccess">✓ Message sent! We'll be in touch within 24 hours.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#home" class="logo"><img src="TATVATECH.png" alt="Tatva Tech" class="logo-img logo-img--footer" /></a>
+            <p>Built on Core Principles</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#work">Our Work</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Web Development</a></li>
+              <li><a href="#services">Social Media</a></li>
+              <li><a href="#services">Digital Marketing</a></li>
+              <li><a href="#services">Lead Generation</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Tatva Tech. All rights reserved.</p>
+          <p>Built on Core Principles</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WHATSAPP FLOAT -->
+    <a href="https://wa.me/919019554570?text=Hi%20Tatva%20Tech%2C%20I%27m%20interested%20in%20your%20services!" target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <!-- COOKIE BANNER -->
+    <div class="cookie-banner hidden" id="cookieBanner">
+      <p>We use cookies to improve your experience. By continuing, you agree to our <a href="#">Privacy Policy</a>.</p>
+      <button class="btn btn-primary" id="cookieAccept">Got it</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
